@@ -7,20 +7,32 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  {%- if site.about.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "About Me" }}</h2>
+    <ol>
+      {%- for about in site.about reversed -%}
+        {{ about.introduction }}
+      {%- endfor -%}
+    </ol>
+  {%- endif -%}
 
-  <h2 class="post-list-heading">{{ "About Me" }}</h2>
-  I am Rohan R. Arora, a Senior Software Engineer at <a href="https://research.ibm.com/">IBM Research</a>.
-  I joined IBM Research in 2016 after graduating from the University of Illinois at Urbana-Champaign with a Masters in Electrical and Computer Engineering.
-  I started off as a founding engineer and later co-led the effort on developing augmented and virtual reality-based solutions for the enterprise at IBM.
-  Since 2021, I have been working at the intersection of Machine Learning and IT operations particularly in the areas of incident management and resource optimization.
+  {%- if site.awards.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Awards" }}</h2>
+    <ul>
+      {%- for award in site.awards reversed -%}
+      <li>{{ award.description }}</li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 
-  <h2 class="post-list-heading">{{ "Skills" }}</h2>
-  <b>Programming Languages:</b> Python | Intermediate proficiency in SQL<br/>
-  <b>Not So Recent Programming Languages:</b> Java<br/>
-  <b>Frameworks:</b> LangChain, Django (primarily Django REST Framework), Angular (Typescript)<br/>
-  <b>Cloud Platforms:</b> IBM Cloud (Bluemix), Amazon Web Services (AWS)<br/>
-  <b>Tools and Technologies:</b> Docker, Podman, Kubernetes, OpenShift, Git, Vim, LaTeX<br/>
+  {%- if site.skills.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Skills" }}</h2>
+    <ul>
+      {%- for skill in site.skills -%}
+        <li><b>{{ skill.key }}</b>: {{ skill.value }}</li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 
   {%- if site.publications.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Publications" }}</h2>

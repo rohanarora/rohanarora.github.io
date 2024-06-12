@@ -35,12 +35,14 @@ plugins:
 # Custom collections directory per https://jekyllrb.com/docs/collections/
 collections_dir: collections
 collections:
+  - about
   - awards
   - education
   - extra-curricular_activities
   - patents
   - publications
   - posts
+  - skills
 
 # Exclude from processing.
 # The following items will not be processed, by default.
