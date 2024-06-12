@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Failure prediction using informational logs and golden signals"
+collaborators: "Seema Nagar, Rohan Arora, Bing Zhou, Noah Zheutlin, Pooja Aggarwal, Amitkumar Manoharrao Paradkar, Larisa Shwartz" 
+date: 2023-07-27 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/WO2023138923A1/en"
+categories: aiops persistence
+---

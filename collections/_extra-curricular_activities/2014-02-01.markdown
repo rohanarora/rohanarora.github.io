@@ -1,0 +1,9 @@
+---
+layout: post
+role: "Content Developer"
+organization: "Creative, Serious and Playful Science of Android Apps" 
+tenure: "Aug. 2013 - Feb. 2014"
+activity: "Developed lecture content, quizzes and assignments for the Coursera’s course with over 140,000 enrollments"
+link: "https://cs.illinois.edu/news/angrave-completes-teaching-first-mooc-developing-android-apps"
+date: 2014-02-01 00:00:00 -0500
+---

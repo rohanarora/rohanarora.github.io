@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Identifying persistent anomalies for failure prediction"
+collaborators: "Seema Nagar, Pooja Aggarwal, Dipanwita Guhathakurta, Rohan Arora, Amitkumar Paradkar, Larisa Shwartz, Bing Zhou, Noah Zheutlin" 
+date: 2023-06-01 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/WO2023094916A1/en"
+categories: aiops persistence
+---

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Optimization framework for real-time rendering of media using machine learning techniques"
+collaborators: "Sinem Güven Kaya, Noah Zheutlin, Rohan R. Arora, Gerard Randolph Vanloo" 
+date: 2023-01-31 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/US20210174189A1/en"
+categories: augmented-reality
+---

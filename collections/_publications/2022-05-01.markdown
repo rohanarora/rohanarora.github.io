@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Utilizing Persistence for Post Facto Suppression of Invalid Anomalies using System Logs"
+authors: "Dipanwita Guhathakurta, Pooja Aggarwal, Seema Nagar, Rohan R. Arora, Bing Zhou" 
+date: 2022-05-01 00:00:00 -0500
+venue: "ICSE-NIER '22: Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: New Ideas and Emerging Results"
+access_url: "https://dl.acm.org/doi/abs/10.1145/3510455.3512774"
+categories: aiops
+---

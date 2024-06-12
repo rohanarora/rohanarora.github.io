@@ -32,6 +32,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Custom collections directory per https://jekyllrb.com/docs/collections/
+collections_dir: collections
+collections:
+  - awards
+  - education
+  - extra-curricular_activities
+  - patents
+  - publications
+  - posts
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

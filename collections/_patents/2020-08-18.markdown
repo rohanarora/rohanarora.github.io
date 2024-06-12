@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Dynamic content generation for augmented reality assisted technology support"
+collaborators: "Sinem Güven Kaya, John A. Bivens, Rohan R. Arora" 
+date: 2020-08-18 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/US20190056779A1/en"
+categories: augmented-reality
+---

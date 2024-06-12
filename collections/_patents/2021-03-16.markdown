@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Leveraging a regulated network to enable device connectivity in a restricted zone"
+collaborators: "Rohan R. Arora, Christian Eggenberger, Sinem Güven Kaya, Jens Rathgeber" 
+date: 2021-03-16 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/US10951621B2/en"
+categories: augmented-reality
+---

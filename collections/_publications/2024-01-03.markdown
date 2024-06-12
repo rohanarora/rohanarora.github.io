@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Dynamic-X-Y: A Tool for Learning Dynamic Alert Suppression Policies in AIOps"
+authors: "Karan Bhukar, Harshit Kumar, Seema Nagar, Pooja Aggarwal, Ian Manning, Rohan Arora, Ruchi Mahindru, Amit Paradkar, Matthew Thornhill, Stephen Cook, Jack Buggins"
+date: 2024-01-03 00:00:00 -0500
+venue: "2024 16th International Conference on COMmunication Systems & NETworkS (COMSNETS)"
+access_url: "https://ieeexplore.ieee.org/abstract/document/10427540"
+categories: aiops
+---

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Dynamic window-size selection for anomaly detection"
+collaborators: "Seema Nagar, Pooja Aggarwal, Rohan R Arora, Amitkumar Manoharrao Paradkar" 
+date: 2024-02-15 00:00:00 -0500
+google_patents_url: "https://patents.google.com/patent/US20240054041A1/enhttps://patents.google.com/patent/US20240054041A1/en"
+categories: aiops persistence
+---

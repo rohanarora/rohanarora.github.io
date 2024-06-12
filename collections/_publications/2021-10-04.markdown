@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Dynamic Content Generation for Augmented Technical Support"
+authors: "Sinem Güven Kaya; Bing Zhou; Rohan R. Arora; Noah Zheutlin; Gerard Vanloo; Elif K. Eyigoz" 
+date: 2021-10-04 00:00:00 -0500
+venue: "2021 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)"
+access_url: "https://ieeexplore.ieee.org/document/9585790"
+categories: augmented-reality
+---

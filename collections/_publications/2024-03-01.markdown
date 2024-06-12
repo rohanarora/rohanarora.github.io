@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Dynamic Alert Suppression Policy for Noise Reduction in AIOps"
+authors: "Karan Bhukar, Harshit Kumar, Ruchi Mahindru, Rohan R. Arora, Seema Nagar, Pooja Aggarwal, Amit Paradkar" 
+date: 2024-03-01 00:00:00 -0500
+venue: "ICSE-SEIP '24: Proceedings of the 46th International Conference on Software Engineering: Software Engineering in Practice"
+access_url: "https://dl.acm.org/doi/abs/10.1145/3639477.3639752"
+categories: aiops
+---

@@ -1,0 +1,7 @@
+---
+layout: post
+program: "Master of Science in Electrical and Computer Engineering"
+educational_institution: "University of Illinois, Urbana-Champaign, Illinois, USA"
+graduation_month_year: "May 2016"
+date: 2016-05-14 00:00:00 -0500
+---

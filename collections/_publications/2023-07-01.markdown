@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Towards Carbon Footprint Management in Hybrid Multicloud"
+authors: "Rohan R. Arora, Umamaheswari Devi, Tamar Eilam, Aanchal Goyal, Chandra Narayanaswami, Pritish Parida" 
+date: 2023-07-01 00:00:00 -0500
+venue: "HotCarbon '23: Proceedings of the 2nd Workshop on Sustainable Computer Systems"
+access_url: "https://dl.acm.org/doi/abs/10.1145/3604930.3605721"
+categories: resource-optimization
+---

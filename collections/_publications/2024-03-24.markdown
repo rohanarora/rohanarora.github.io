@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Optimizing IT FinOps and Sustainability through Unsupervised Workload Characterization"
+authors: "Xi Yang, Rohan R. Arora, Saurabh Jha, Chandra Narayanaswami, Cheuk Lam, Jerrold Leichter, Yu Deng, Daby M. Sow"
+date: 2024-03-24 00:00:00 -0500
+venue: "2024 Proceedings of the AAAI Conference on Artificial Intelligence, 38(21), 22990-22996; Section: IAAI Technical Track on Emerging Applications of AI"
+access_url: "https://ojs.aaai.org/index.php/AAAI/article/view/30340"
+categories: resource-optimization
+---
