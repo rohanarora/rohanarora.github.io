@@ -9,11 +9,45 @@ layout: default
 
   {%- if site.about.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "About Me" }}</h2>
-    <ol>
       {%- for about in site.about reversed -%}
         {{ about.introduction }}
       {%- endfor -%}
-    </ol>
+    <br/>
+    <br/>
+  {%- endif -%}
+
+  {%- if site.awards.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Professional Experience" }}</h2>
+    {%- for pe in site.professional_experiences reversed -%}
+      <b>{{ pe.organization }}</b><br/>
+      <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+        <i>{{ pe.role1 }}</i>
+        <span style="float:right;">
+          {{ pe.role1_tenure }}
+        </span>
+      </p>
+
+      {% assign role2 = pe.role2 | strip_newlines %}
+      {%- if role2 != "" -%}
+        <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+          <i>{{ pe.role2 }}</i>
+          <span style="float:right;">
+            {{ pe.role2_tenure }}
+          </span>
+        </p>
+      {%- endif -%}
+
+      {% assign role3 = pe.role3 | strip_newlines %}
+      {%- if role3 != "" -%}
+      <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+        <i>{{ pe.role3 }}</i>
+        <span style="float:right;">
+          {{ pe.role3_tenure }}
+        </span>
+      </p>
+      {%- endif -%}
+      {{ pe.contributions }}
+    {%- endfor -%}
   {%- endif -%}
 
   {%- if site.awards.size > 0 -%}
@@ -63,23 +97,23 @@ layout: default
     </ol>
   {%- endif -%}
 
-  {%- if site.extra-curricular_activities.size > 0 -%}
-    <h2 class="post-list-heading">{{ "Extra-curricular Activities" }}</h2>
-    {%- for extra-curricular_activities in site.extra-curricular_activities reversed -%}
-      {% assign link = extra-curricular_activities.link | strip_newlines %}
+  {%- if site.philanthropic_activities.size > 0 -%}
+    <h2 class="post-list-heading">{{ "Philanthropic Activities" }}</h2>
+    {%- for pa in site.philanthropic_activities reversed -%}
+      {% assign link = pa.link | strip_newlines %}
       <p style="text-align:left;">
-        <b>{{ extra-curricular_activities.role }}</b>,
+        <b>{{ pa.role }}</b>,
           {%- if link != "" -%}
-            <a href="{{ extra-curricular_activities.link }}"> <b>{{ extra-curricular_activities.organization | escape }}</b></a>
+            <a href="{{ pa.link }}"> <b>{{ pa.organization | escape }}</b></a>
           {% else %}
-            <b>{{ extra-curricular_activities.organization }}</b>
+            <b>{{ pa.organization }}</b>
           {%- endif -%}
-        <span style="float:right;">
-              {{ extra-curricular_activities.tenure }}
+          <span style="float:right;">
+              {{ pa.tenure }}
           </span>
       </p>
       <ul>
-        <li>{{ extra-curricular_activities.activity }} </li>
+        <li>{{ pa.activity }} </li>
       </ul>
     {%- endfor -%}
   {%- endif -%}

@@ -1,0 +1,8 @@
+---
+layout: post
+role: "Project Steward"
+organization: "Asha for Education - UIUC Chapter" 
+tenure: "Oct. 2013&ndash;Dec. 2015"
+activity: "Conducted an issue-based and need-based analysis for judicious allocation of funds to underprivileged and hearing-impaired children in India."
+date: 2015-12-01 00:00:00 -0500
+---

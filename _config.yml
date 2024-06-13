@@ -38,10 +38,11 @@ collections:
   - about
   - awards
   - education
-  - extra-curricular_activities
   - patents
+  - philanthropic_activities
   - publications
   - posts
+  - professional_experiences
   - skills
 
 # Exclude from processing.

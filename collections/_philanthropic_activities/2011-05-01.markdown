@@ -2,7 +2,7 @@
 layout: post
 role: "Chairperson"
 organization: "Computer Society of India - NMIMS Chapter" 
-tenure: "Aug. 2009 - May 2011"
-activity: "Organized computing workshops and competitions for the student community"
+tenure: "Aug. 2009&ndash;May 2011"
+activity: "Organized computing workshops and competitions for the student community."
 date: 2014-02-01 00:00:00 -0500
 ---

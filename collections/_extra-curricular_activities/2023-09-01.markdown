@@ -1,8 +1,0 @@
----
-layout: post
-role: "Volunteer"
-organization: "Catchafire" 
-tenure: "Jan. 2021 - Sept. 2023"
-activity: "Helped 5 nonprofit organizations transition to Google Workspaces enhancing online collaboration and productivity"
-date: 2015-12-01 00:00:00 -0500
----
