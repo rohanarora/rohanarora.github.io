@@ -43,6 +43,7 @@ collections:
   - publications
   - posts
   - professional_experiences
+  - professional_experiences_multiple_roles
   - skills
 
 # Exclude from processing.

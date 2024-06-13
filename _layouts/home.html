@@ -16,8 +16,42 @@ layout: default
     <br/>
   {%- endif -%}
 
-  {%- if site.awards.size > 0 -%}
+  {%- if site.professional_experiences.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Professional Experience" }}</h2>
+    {%- for pe in site.professional_experiences_multiple_roles reversed -%}
+      <b>{{ pe.organization }}</b><br/>
+      <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+        <i>{{ pe.role1 }}</i>
+        <span style="float:right;">
+          {{ pe.role1_tenure }}
+        </span>
+        {{ pe.role1_contributions }}
+      </p>
+
+      {% assign role2 = pe.role2 | strip_newlines %}
+      {%- if role2 != "" -%}
+      <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+        <i>{{ pe.role2 }}</i>
+        <span style="float:right;">
+          {{ pe.role2_tenure }}
+        </span>
+        {{ pe.role2_contributions }}
+      </p>
+      {%- endif -%}
+
+      {% assign role3 = pe.role3 | strip_newlines %}
+      {%- if role3 != "" -%}
+      <p style="text-align:left; margin-top: 0; margin-bottom: 0">
+        <i>{{ pe.role3 }}</i>
+        <span style="float:right;">
+          {{ pe.role3_tenure }}
+        </span>
+        {{ pe.role3_contributions }}
+      </p>
+      {%- endif -%}
+      {{ pe.contributions }}
+    {%- endfor -%}
+
     {%- for pe in site.professional_experiences reversed -%}
       <b>{{ pe.organization }}</b><br/>
       <p style="text-align:left; margin-top: 0; margin-bottom: 0">
