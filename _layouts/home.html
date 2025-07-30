@@ -102,35 +102,6 @@ layout: default
     </ul>
   {%- endif -%}
 
-  {%- if site.publications.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Publications" }}</h2>
-    <ol>
-      {%- for publication in site.publications reversed -%}
-      <li>
-          <a href="{{ publication.access_url | relative_url }}">
-            {{ publication.title | escape }}
-          </a><br/>
-          <b>Venue</b>: {{ publication.venue | escape }} <br/>
-          <b>Authors</b>: {{ publication.authors | escape }}
-      </li>
-      {%- endfor -%}
-    </ol>
-  {%- endif -%}
-
-  {%- if site.patents.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Patents" }}</h2>
-    <ol>
-      {%- for patent in site.patents reversed -%}
-      <li>
-        <a href="{{ patent.google_patents_url | relative_url }}">
-          {{ patent.title | escape }}
-        </a><br/>
-        <b>Inventors</b>: {{ patent.collaborators }}
-      </li>
-      {%- endfor -%}
-    </ol>
-  {%- endif -%}
-
   {%- if site.philanthropic_activities.size > 0 -%}
     <h2 class="post-list-heading">{{ "Philanthropic Activities" }}</h2>
     {%- for pa in site.philanthropic_activities reversed -%}
@@ -166,4 +137,34 @@ layout: default
       </p>
     {%- endfor -%}
   {%- endif -%}
+
+  {%- if site.publications.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Publications" }}</h2>
+    <ol>
+      {%- for publication in site.publications reversed -%}
+      <li>
+          <a href="{{ publication.access_url | relative_url }}">
+            {{ publication.title | escape }}
+          </a><br/>
+          <b>Venue</b>: {{ publication.venue | escape }} <br/>
+          <b>Authors</b>: {{ publication.authors | escape }}
+      </li>
+      {%- endfor -%}
+    </ol>
+  {%- endif -%}
+
+  {%- if site.patents.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Patents" }}</h2>
+    <ol>
+      {%- for patent in site.patents reversed -%}
+      <li>
+        <a href="{{ patent.google_patents_url | relative_url }}">
+          {{ patent.title | escape }}
+        </a><br/>
+        <b>Inventors</b>: {{ patent.collaborators }}
+      </li>
+      {%- endfor -%}
+    </ol>
+  {%- endif -%}
+
 </div>
