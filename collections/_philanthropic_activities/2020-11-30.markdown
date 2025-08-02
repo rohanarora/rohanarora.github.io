@@ -1,0 +1,8 @@
+---
+layout: post
+role: "Board Member"
+organization: "Birthright of Peekskill, New York" 
+tenure: "Aug. 2016&ndash;Nov. 2020"
+activity: "Participated in the budgeting, fundraising, and overall leadership of the local chapter of the organization."
+date: 2020-11-30 00:00:00 -0500
+---
